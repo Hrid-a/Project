@@ -3,3 +3,45 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.main-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+@media (max-width:767px) {
+    .main-title {
+        font-size: 20px;
+    }
+}
+
+.main-title+p {
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.main-head {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-head h2 {
+    width: 245px;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.main-head h2+p {
+    font-size: 12px;
+}
+
+p {
+    color: var(--gray);
+}
+
+span.title {
+    color: var(--p-b);
+    font-size: 20px;
+    text-transform: capitalize;
+}
