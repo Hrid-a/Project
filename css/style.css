@@ -214,6 +214,7 @@ header .icon span:not(last-child) {
 
 .landing .container .content {
     max-width: 330px;
+    margin-top: 35px;
 }
 
 @media (max-width:991px) {
@@ -310,10 +311,14 @@ header .icon span:not(last-child) {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 750px;
     z-index: 1;
 }
 
+@media (max-width:1299px) {
+    .landing .hero-image {
+        width: 750px;
+    }
+}
 @media (max-width:1199px) {
     .landing .hero-image {
         width: 700px;
