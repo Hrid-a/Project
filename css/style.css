@@ -319,6 +319,7 @@ header .icon span:not(last-child) {
         width: 750px;
     }
 }
+
 @media (max-width:1199px) {
     .landing .hero-image {
         width: 700px;
@@ -332,6 +333,8 @@ header .icon span:not(last-child) {
 }
 
 @media (max-width:991px) {
+
+    /* if you use a xl screens than you should comment this foregoing  code*/
     .landing .hero-image {
         width: 250px;
     }
@@ -737,6 +740,7 @@ header .icon span:not(last-child) {
     bottom: 170px;
     color: var(--dark-blue);
 }
+
 @media (max-width: 767px) {
     .statics .video-section i {
         display: none;
